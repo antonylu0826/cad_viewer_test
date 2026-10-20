@@ -1,0 +1,36 @@
+{
+  "name": "cad_viewer_test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mlightcad/cad-simple-ui-plugin": "^1.7.6",
+    "@mlightcad/cad-simple-viewer": "^1.7.6",
+    "@mlightcad/data-model": "^1.15.12",
+    "@mlightcad/libredwg-converter": "^3.15.12",
+    "@mlightcad/mtext-parser": "^1.5.5",
+    "@mlightcad/mtext-renderer": "^0.13.5",
+    "@mlightcad/three-renderer": "^1.7.6",
+    "@velipso/polybool": "^1.1.1",
+    "lodash-es": "^4.17.21",
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.4"
+  }
+}
