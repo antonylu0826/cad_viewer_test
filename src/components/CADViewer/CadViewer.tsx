@@ -470,8 +470,8 @@ export const CadViewer: React.FC = () => {
           </div>
         )}
 
-        {/* 未開檔時的 shadcn 簡約引導空狀態 */}
-        {!hasOpenedFile && (
+        {/* 未開檔且非載入中時的 shadcn 簡約引導空狀態 */}
+        {!hasOpenedFile && !isLoading && (
           <div className="empty-dropzone">
             <div className="empty-card">
               <Upload className="upload-icon" />
